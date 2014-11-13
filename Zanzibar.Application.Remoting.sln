@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zanzibar.Application.Common", "Zanzibar.Application.Common\Zanzibar.Application.Common.csproj", "{91D7B1C2-FD25-4FEC-B742-5F9DEA07A88B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zanzibar.Application.RemotingServer", "Zanzibar.Application.RemotingServer\Zanzibar.Application.RemotingServer.csproj", "{217D9FB1-6266-446E-BB7E-5A70644F2211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zanzibar.Application.RemotingClient", "Zanzibar.Application.RemotingClient\Zanzibar.Application.RemotingClient.csproj", "{711106BA-6C47-4FAC-BC5F-E27EDA30EBD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91D7B1C2-FD25-4FEC-B742-5F9DEA07A88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D7B1C2-FD25-4FEC-B742-5F9DEA07A88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D7B1C2-FD25-4FEC-B742-5F9DEA07A88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D7B1C2-FD25-4FEC-B742-5F9DEA07A88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217D9FB1-6266-446E-BB7E-5A70644F2211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217D9FB1-6266-446E-BB7E-5A70644F2211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217D9FB1-6266-446E-BB7E-5A70644F2211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217D9FB1-6266-446E-BB7E-5A70644F2211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711106BA-6C47-4FAC-BC5F-E27EDA30EBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711106BA-6C47-4FAC-BC5F-E27EDA30EBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711106BA-6C47-4FAC-BC5F-E27EDA30EBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711106BA-6C47-4FAC-BC5F-E27EDA30EBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

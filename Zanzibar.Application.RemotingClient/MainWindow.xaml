@@ -1,0 +1,9 @@
+﻿<Window x:Class="Zanzibar.Application.RemotingClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Access Service" HorizontalAlignment="Left" Height="73" Margin="218,120,0,0" VerticalAlignment="Top" Width="178" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
