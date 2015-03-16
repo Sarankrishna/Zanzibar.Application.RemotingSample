@@ -8,7 +8,7 @@ using Zanzibar.Application.Common.EntityInterface;
 namespace Zanzibar.Application.RemotingServer.Entities
 {
     [Serializable]
-    public class Employee : IEmployee
+    public class Employee :MarshalByRefObject, IEmployee
     {
         public int Id { get; set; }
         public string Name { get; set; }
