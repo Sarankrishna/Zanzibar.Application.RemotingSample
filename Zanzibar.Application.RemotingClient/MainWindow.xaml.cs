@@ -32,6 +32,7 @@ namespace Zanzibar.Application.RemotingClient
         {
             EmployeeInformation info = new EmployeeInformation();
             var employees = info.GetEmployees();
+            //info.UpdateEmployee();
             MessageBox.Show("Accessed the employee Service");
         }
     }
